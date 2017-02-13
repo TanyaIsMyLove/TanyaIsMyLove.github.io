@@ -220,4 +220,5 @@ body {
 audio {
   width: 600px;
   z-index: 100;
+  margin-top: 10px;
 }
