@@ -218,7 +218,6 @@ body {
 /*# sourceMappingURL=style.css.map */
 
 audio {
-  height: 40px;
-  width: 100%;
+  width: 600px;
   z-index: 100;
 }
