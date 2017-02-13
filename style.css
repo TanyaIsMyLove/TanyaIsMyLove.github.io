@@ -1,0 +1,218 @@
+/* line 1, style.sass */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, style.sass */
+body {
+  font-family: "Lobster", cursive !important; }
+
+/* line 9, style.sass */
+.wrapper {
+  background: #FFE4B5;
+  text-align: center; }
+
+/* line 13, style.sass */
+.section1__element1 {
+  background: url(img/hart.jpg) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  padding: 0 10px;
+  height: 500px;
+  display: inline-block; }
+
+/* line 22, style.sass */
+.section1__element1 h2 {
+  color: #fff; }
+
+/* line 25, style.sass */
+.section1 img {
+  width: 500px; }
+
+/* line 28, style.sass */
+.section2 {
+  background: url(img/s2_1_491x368.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  display: inline-block; }
+
+/* line 36, style.sass */
+.section2 h2 {
+  color: #000000;
+  padding-top: 30px; }
+
+/* line 41, style.sass */
+.section3 {
+  background: url(img/nous.JPG) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  display: inline-block; }
+
+/* line 48, style.sass */
+.section3 h2 {
+  color: #800000; }
+
+/* line 51, style.sass */
+.section4 {
+  background: url(img/myLove.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 700px;
+  display: inline-block; }
+
+/* line 58, style.sass */
+.section4 h2 {
+  color: #E0FFFF; }
+
+/* line 61, style.sass */
+.section5 {
+  background: url(img/we.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  display: inline-block; }
+
+/* line 67, style.sass */
+.section5 h2 {
+  color: #fff; }
+
+/* line 70, style.sass */
+.section6 {
+  background: url(img/girl.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+  display: inline-block; }
+
+/* line 77, style.sass */
+.section6 h2 {
+  color: #fff; }
+
+/* line 82, style.sass */
+.section7 {
+  background: url(img/light.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+  display: inline-block; }
+
+/* line 91, style.sass */
+.section7 h2 {
+  color: #000000;
+  padding-top: 400px; }
+
+/* line 95, style.sass */
+.section8 {
+  background: url(img/date.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+  display: inline-block; }
+
+/* line 102, style.sass */
+.section8 h2 {
+  padding-top: 20px;
+  color: #fff; }
+
+/* line 106, style.sass */
+.section9 {
+  background: url(img/come.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  display: inline-block; }
+
+/* line 113, style.sass */
+.section9 h2 {
+  color: #000000; }
+
+/* line 115, style.sass */
+.section10 {
+  background: url(img/erusalim_501x387.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+  display: inline-block; }
+
+/* line 122, style.sass */
+.section10 h2 {
+  color: #DAA520; }
+
+/* line 125, style.sass */
+.section11 {
+  background: url(img/weding.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 400px;
+  display: inline-block; }
+
+/* line 132, style.sass */
+.section11 h2 {
+  color: #6495ED; }
+
+/* line 135, style.sass */
+.section12 {
+  background: url(img/prignes.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+  display: inline-block; }
+
+/* line 142, style.sass */
+.section12 h2 {
+  color: #4682B4; }
+
+/* line 145, style.sass */
+.section13 {
+  background: url(img/kiss.png) no-repeat 0 0;
+  background-size: cover;
+  width: 600px;
+  height: 800px;
+  display: inline-block; }
+
+/* line 152, style.sass */
+.section13 h2 {
+  color: #FF00FF; }
+
+/* line 154, style.sass */
+.gen_font {
+  color: #CD5C5C; }
+
+/* line 157, style.sass */
+#heart {
+  position: relative;
+  width: 300px;
+  height: 270px;
+  display: inline-block; }
+
+/* line 163, style.sass */
+#heart:before,
+#heart:after {
+  position: absolute;
+  content: "";
+  left: 150px;
+  top: 0;
+  width: 150px;
+  height: 240px;
+  background: #DC143C;
+  border-radius: 150px 150px 0 0;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+          transform-origin: 0 100%; }
+
+/* line 176, style.sass */
+#heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%; }
+
+/*# sourceMappingURL=style.css.map */
